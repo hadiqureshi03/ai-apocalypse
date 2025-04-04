@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/infographic.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="icon" type="image/png" href="img/fav.png" />
+    <title>Emergency Site</title>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body id="register">
+    <header>
+      <nav>
+        <div id="logotype-wrapper">
+          <a href="index.html"> LOGOTYPE </a>
+        </div>
+        <ul class="menu">
+          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
+          <li><a class="menuItem" href="register.html">Indberet</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>INDBERET</h1>
+      <section id="form-section">
+        <article id="form-info">
+          <h2>Overskrift</h2>
+          <p>TODO: Beskrivene tekst</p>
+        </article>
+        <form id="webform" action="#" onsubmit="return submitForm(this)" >
+            <label for="name">Navn</label>
+            <input type="text" id="name" name="name" placeholder="Indtast navn" required />
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Indtast e-mail" required />
+            <label for="phone">Telefonnummer</label>
+            <input type="tel" id="phone" name="phone" placeholder="Indtast telefonnummer" required />
+            <label for="message">Besked</label>
+            <select>
+              <option value="1">Vælg en mulighed</option>
+              <option value="2">Autonom Manipulation</option>
+              <option value="3">Digitale Phantom Entities</option>
+              <option value="4">Identitetssvindel</option>
+              <option value="5">AI-propaganda</option>
+            </select>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+          <button type="submit">Indsend</button>
+        </form>
+      </section>
+      <section id="form-summary">
+        <h2>Summary</h2>
+        <article>
+          <p class="placeholder">Opsummering</p>
+          <div id="summary-content">
+          </div>
+        </article>
+      </section>
+<!--  
+      <section class="info-text">
+        <h2>Overskrift</h2>
+        <article>
+          <p class="placeholder">INFO-TEKST</p>
+        </article>
+        <aside id="efficiency" class="info-box yellow">INFO-BOX</aside>
+        <aside id="requirement" class="info-box green">INFO-BOX</aside>
+      </section>  -->
+    </main>
+
+    <footer>
+      <nav class="some">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/burger.js"></script>
+  </body>
+</html>
