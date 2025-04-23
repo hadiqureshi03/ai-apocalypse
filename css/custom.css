@@ -11,7 +11,7 @@
   --placeholder-font-color: #575c61; /* used */
 
   /* NOT USED AT THE MOMENT */
-  --info-color: #377DCA;
+  --info-color: #37CA;
   --warning-color: #ffc107;
   --danger-color: #dc3545;
 
@@ -56,6 +56,7 @@
   --formfield-text-color: #575c61;
   --form-submit-color: #bbc3ca;
   --form-submit-color-inverted: #bbc3ca;
+  --black: #000000;
 
   /* Background colors */
   --logotype-background-color: #1F3A59;

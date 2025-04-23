@@ -3,7 +3,6 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
-  max-width: 1200px;
   margin: 0 auto;
 }
 main {
@@ -11,7 +10,7 @@ main {
   row-gap: 1rem;
 }
 main > *:not(:first-child) {
-  margin: 0 1rem;
+  padding-left: 20px;
 }
 main {
   grid-template-rows: min-content min-content 1fr min-content;
@@ -55,7 +54,7 @@ footer ul {
 }
 #breaking {
   grid-template-rows: repeat(auto-fit, minmax(50px, min-content));
-  gap: 0;
+  gap: 1rem;
 }
 
 @media (width > 600px) {
@@ -83,7 +82,9 @@ footer ul {
 /* Toggle-switch */
 body.dark-mode {
   background-color: var(--bg-dark);
-  color: var(--text-dark);}
+  color: var(--logotype-color);
+
+}
 
 .toggle-switch {
   position: relative;
