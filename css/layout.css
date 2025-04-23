@@ -80,3 +80,69 @@ footer ul {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+/* Toggle-switch */
+body.dark-mode {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);}
+
+.toggle-switch {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  background-color: var(--toggle-bg-light);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;}
+
+body.dark-mode .toggle-switch {
+  background-color: var(--toggle-bg-dark);}
+  
+.toggle-knob {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 32px;
+    height: 32px;
+    background-color: var(--toggle-knob-light);
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;}
+
+    body.dark-mode .toggle-knob {
+      transform: translateX(40px);}
+  
+  .toggle-icon {
+      font-size: 1.1rem;}
+  
+  .sun-icon {
+      color: var(--sun-color);
+      display: block;}
+  
+  .moon-icon {
+      color: var(--moon-color);
+      display: none;}
+  
+  body.dark-mode .sun-icon {
+      display: none;}
+  
+  body.dark-mode .moon-icon {
+      display: block;}
+  
+  .mode-text {
+      margin-top: 1rem;
+      font-weight: 500;}
+  
+  .content {
+      margin-top: 2rem;
+      text-align: center;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 0.5rem;}
+  
+  .content h2 {
+      margin-bottom: 0.5rem;}
+
+  

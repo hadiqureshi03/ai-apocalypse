@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
-    <script type="text/javascript" src="js/main.js"></script>
   </head>
   <body id="register">
     <header>
@@ -22,6 +21,12 @@
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
           <li><a class="menuItem" href="register.html">Indberet</a></li>
+          <div id="darkModeToggle" class="toggle-switch" role="button" tabindex="0" aria-pressed="false" aria-label="Toggle dark mode">
+            <div class="toggle-knob">
+                <span class="toggle-icon sun-icon">☀️</span>
+                <span class="toggle-icon moon-icon">🌙</span>
+            </div>
+        </div>
         </ul>
       </nav>
     </header>
@@ -31,7 +36,9 @@
       <section id="form-section">
         <article id="form-info">
           <h2>Overskrift</h2>
-          <p>TODO: Beskrivene tekst</p>
+          <p>Oplevet AI-misbrug?
+            Hvis du har været udsat for AI-manipulation, falske identiteter, identitetstyveri (f.eks. deepfakes eller stemmekloning) eller AI-genereret misinformation, bør du overveje at ansøge. Udfyld formularen for at komme i gang.
+          </p>
         </article>
         <form id="webform" action="#" onsubmit="return submitForm(this)" >
             <label for="name">Navn</label>
@@ -97,7 +104,7 @@
         </ul>
       </nav>
     </footer>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main.js"></script>
     <script src="js/burger.js"></script>
   </body>
 </html>

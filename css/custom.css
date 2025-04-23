@@ -1,7 +1,7 @@
 :root {
   /* Colours */
-  --primary-bg-color: #8A8A8A; 
-  --primary-font-color: #000000; /* used */
+  --primary-bg-color: #1A202C; 
+  --primary-font-color: #ffff; /* used */
 
   --secondary-bg-color: #5d656c; /* used */
   --secondary-font-color: #d5e5f4; /* used */
@@ -44,12 +44,12 @@
   --form-submit-size: 1rem;
 
   /* Text colors */
-  --logotype-color: #FFCC32;
-  --headline-color: #FFCC32;
+  --logotype-color: #ffff;
+  --headline-color: #ffff;
   --headline-color-inverted: #fffae2;
   --bodytext-color: #575c61;
   --bodytext-color-inverted: #f9fcfe;
-  --cta-text-color: #000000;
+  --cta-text-color: #ffff;
   --cta-text-color-inverted: #bbc3ca;
   --followup-text-color: #fffae2;
   --followup-text-color-inverted: #bbc3ca;
@@ -58,18 +58,18 @@
   --form-submit-color-inverted: #bbc3ca;
 
   /* Background colors */
-  --logotype-background-color: #000000;
-  --header-background-color: #377DCA;
-  --article-background-color: #fffae2;
-  --news-background-color: #fffae2;
+  --logotype-background-color: #1F3A59;
+  --header-background-color: #90CAF9;
+  --article-background-color: #90CAF9;
+  --news-background-color: #90CAF9;
   --news-background-color-inverted: #dbe2f5;
   --info-background-color: rgb(255, 255, 255);
-  --headline-bg-color: #ff4b00;
-  --headline-bg-color-alert: #ff4b00;
-  --headline-bg-color-inverted: #000000;
+  --headline-bg-color: #FF5733;
+  --headline-bg-color-alert: #FF5733;
+  --headline-bg-color-inverted: #1F3A59;
   --bodytext-bg-color: #ffffff;
   --bodytext-bg-color-inverted: #dbe2f5;
-  --cta-text-bg-color: #ff4b00;
+  --cta-text-bg-color: #FF5733;
   --cta-text-bg-color-inverted: #dbdde3;
   --followup-text-bg-color: #ff0000;
   --followup-text-bg-color-inverted: #dbdde3;
@@ -81,6 +81,6 @@
   --form-submit-bg-color-inverted: #dbdde3;
 
   /* Info-boxes */
-  --info-bg-color-yellow: #f8cf00;
-  --info-bg-color-green: #def5db;
+  --info-bg-color-yellow: #90CAF9;
+  --info-bg-color-green: #90CAF9;
 }
