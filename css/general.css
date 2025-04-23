@@ -59,7 +59,7 @@ h1 {
   font-size: var(--headline1-size);
   color: var(--headline-color-inverted);
   margin: 5px 0;
-  line-height: 1rem;
+  line-height: 1.4;
   text-align: left;
 }
 h2 {
@@ -121,6 +121,13 @@ header nav li a {
   padding: 0.5rem 1rem;
 }
 
+body.dark-mode .latestnews p, body.dark-mode .latestnews h1, body.dark-mode .latestnews h2, body.dark-mode .latestnews h3, body.dark-mode .latestnews h4, body.dark-mode .latestnews h5, body.dark-mode .latestnews h6 {
+  color: var(--black);
+}
+
+.latestnews .picture {
+max-width: 400px;
+}
 body.dark-mode header nav li a {
   color: var(--black);
 }
