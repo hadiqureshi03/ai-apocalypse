@@ -70,7 +70,7 @@ h3 {
 }
 
 main > h1 {
-  background-color: var(--headline-bg-color-alert);
+  info-background-color: rgb(255, 255, 255);
   color: var(--headline-color-inverted);
   line-height: 4rem;
   padding: 5px 3rem 0 3rem;
@@ -121,22 +121,17 @@ header nav li a {
   padding: 0.5rem 1rem;
 }
 
-body.dark-mode .latestnews p, body.dark-mode .latestnews h1, body.dark-mode .latestnews h2, body.dark-mode .latestnews h3, body.dark-mode .latestnews h4, body.dark-mode .latestnews h5, body.dark-mode .latestnews h6 {
+body.dark-mode .main p, body.dark-mode .main h1, body.dark-mode .main h2, body.dark-mode .main h3, body.dark-mode .main h4, body.dark-mode .main h5, body.dark-mode .main h6, body.dark-mode .main article {
   color: var(--black);
 }
 
 .latestnews .picture {
-max-width: 400px;
+  max-width: 400px;
 }
 body.dark-mode header nav li a {
   color: var(--black);
 }
-/* header > nav li > a:after {
-  content: " \2192";
-} */
-/* nav a:hover {
-  color: var(--hover-color);
-} */
+
 nav a:active {
   color: var(--active-color);
 }

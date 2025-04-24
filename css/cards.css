@@ -1,6 +1,5 @@
 .daily_card {
   background-color: var(--article-background-color);
-  /* border: 1px solid var(--border-color); */
   height: 350px;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -38,10 +37,6 @@
 }
 .news_card {
   background-color: var(--article-background-color);
-  /* display: grid;
-  grid-template-rows: repeat(min-content);
-  gap: 0.4rem; */
-  /* border: 1px solid var(--border-color); */
   height: 278px;
   background-position: center;
   background-repeat: no-repeat;
